@@ -1,0 +1,152 @@
+/* BudgetTracker.css */
+
+.budget-tracker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.tracker-hrading {
+  margin-left: 45em;
+}
+
+.budget-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+.budget-section {
+  flex-basis: calc(50% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+}
+
+.cash-in-section {
+  margin-right: 20px;
+}
+
+.cash-out-section {
+  margin-left: 20px;
+}
+
+.budget-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.budget-item {
+  margin-bottom: 10px;
+}
+
+.budget-item h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.transaction-item {
+  margin-left: 20px;
+}
+
+.transaction-item p {
+  margin: 5px 0;
+}
+
+.total-cash-in,
+.total-cash-out {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.pie-chart {
+  margin-top: 20px;
+}
+
+.budget-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.pie-chart {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Customize the size of the pie chart */
+canvas {
+  max-width: 300px;
+}
+
+/* Customize the appearance of the legend */
+.chartjs-render-monitor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.chartjs-render-monitor li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.chartjs-render-monitor li span {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.budget-summary {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.budget-summary h3 {
+  margin-top: 0;
+  font-weight: 10em;
+  font-size: 30px;
+}
+
+.budget-summary .summary-item {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.budget-summary p {
+  margin: 5px 0;
+  font-size: 20px;
+  font-weight: 5em;
+}
+
+.budget-summary .amount {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.budget-summary .positive {
+  color: green;
+}
+
+.budget-summary .negative {
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .budget-section {
+    width: 100%;
+  }
+}

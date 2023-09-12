@@ -1,0 +1,246 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: transparent;
+    color: #000000;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .tit_p{
+    float: right;
+    text-align: center;
+    background-color:transparent;
+    padding: 30px;
+    margin-top: 0.5em;
+    color: black;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  h1 {
+    margin: 0;
+  }
+  
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Adjust the alignment */
+    margin-bottom: 20px;
+   }
+  
+  button {
+    margin-left: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .cash-in {
+    background-color: #28a745; 
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  .cash-out {
+    background-color: #dc3545; 
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  
+  /* Table styles */
+  .container {
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: rgb(72 99 212);
+    color: #fff;
+  }
+
+ 
+  
+  .cash-in-row {
+    background-color: #00ff3c; 
+  }
+  
+  .cash-out-row {
+    background-color: red; 
+    color: #fff;
+  }
+  
+  /* Popup styles */
+  .popup {
+    position: fixed;
+    top: 0;
+    right: 0; /* Update the right property */
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    max-height: 100vh;
+    margin-right: 10em;
+  }
+
+.popup h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group select {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.cancel-button,
+.submit-button {
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #dc3545; /* red color */
+  margin-right: 10px;
+}
+
+.submit-button {
+  background-color: #28a745; /* green color */
+}
+.summary-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-item h3 {
+  margin: 0;
+}
+
+.summary-item p {
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.logoutbtn{
+  width: 10%;
+    height: 3em;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left end of the page */
+  }
+  
+  .chatbot-button {
+    margin-left: 107em;
+    margin-bottom: 10px;
+  }
+
+  .dropdown-container {
+    position: relative ;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dropdown-select {
+    width: 200px; 
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  .download{
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  .share{
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+  }
+  .budget-tracker_cash{
+    display: flex;
+    justify-content: center;
+    padding: 12px 24px;
+    font-size: 18px;
+  }

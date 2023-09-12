@@ -1,0 +1,131 @@
+/* Login.css */
+
+/* Common styles */
+
+.login {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.login__top-bar {
+  background-color: rgb(72, 99, 212);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.login__title {
+  margin: 0;
+}
+
+.login__box {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  max-width: 500px;
+  width: 90%; 
+  height: 15em;
+}
+
+.login__heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.login__form-group {
+  margin-bottom: 20px;
+}
+
+.login__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login__input {
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login__submit-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(72, 99, 212);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 300px;
+}
+
+.login__submit-button:hover {
+  background-color: #4567a6;
+}
+.login__options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.login__option-button_for{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(72, 99, 212);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%);
+
+}
+.login__option-button_for:hover {
+  background-color: #4567a6;
+}
+.login__option-button_sign{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: rgb(72, 99, 212);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 68em;
+
+}
+.login__option-button_sign:hover {
+  background-color: #4567a6;
+}
+
+/* Media Queries */
+
+/* Tablets and smaller */
+@media (max-width: 768px) {
+  .login__box {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login__box {
+    max-width: 90%;
+  }
+}

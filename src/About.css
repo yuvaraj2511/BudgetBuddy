@@ -1,0 +1,40 @@
+.title-bar {
+    background-color: rgb(72, 99, 212);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .title-bar h1 {
+    margin: 0;
+    color: white;
+  }
+  
+ 
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align elements to the left end of the page */
+  }
+  
+  .chatbot-button {
+    margin-left: 107em;
+    margin-bottom: 10px;
+  }
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  .about-content h2 {
+    margin-top: 0;
+  }
+  
+  .about-content p {
+    margin-bottom: 20px;
+  }
+  
