@@ -10,8 +10,7 @@ Welcome to BudgetBuddy, where your financial journey transforms into an adventur
 - Features
 - Pages
 - Usage
-- Installation
-- Contributing
+
 
 
 ## Introduction
@@ -51,13 +50,6 @@ BudgetBuddy is not just a cashbook; it's your trusty sidekick in the world of fi
 4. Configure the MySQL database in `application.properties`.
 5. Run the application: `npm start` (for the frontend) and `mvn spring-boot:run` (for the backend)
 
-## Installation
-
-For detailed instructions on setting up and running the BudgetBuddy application, check out the [Installation Guide](docs/installation.md).
-
-## Contributing
-
-Become a part of the BudgetBuddy community! If you find bugs or have improvement ideas, open an issue or submit a pull request. Refer to our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 
 
 
